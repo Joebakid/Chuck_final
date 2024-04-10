@@ -1,0 +1,44 @@
+.preloader1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.5;
+    animation: bounce 0.5s ease infinite alternate;
+}
+
+.preloader1::after {
+    content: '';
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-left: 0.5em;
+    border: 3px dashed #ffffff;
+    border-top-color: transparent;
+    animation: preloader-spin 1s ease-in infinite;
+}
+
+@keyframes preloader-spin {
+    50% {
+        border: 3px solid #06fd58;
+    }
+
+    to {
+        transform: rotate(360deg);
+        border: 3px solid #088de0;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}

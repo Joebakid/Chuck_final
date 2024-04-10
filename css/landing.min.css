@@ -1,0 +1,32 @@
+:root {
+    --navLinkSize: 1.2rem;
+    --headerLevelOne: 2.3rem;
+    --headerLevelOneWeight: 100;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.cover-heading {
+    font-size: calc((var(--headerLevelOne)*1.5));
+    line-height: calc((var(--headerLevelOne)*1.25));
+    font-weight: var(--headerLevelOneWeight);
+    color: #fff;
+}
+
+.cta {
+    padding: 1rem 4rem;
+    font-size: calc(var(--navLinkSize)*1.5);
+    font-weight: 400;
+    transition: 500ms;
+}
+
+.cta:hover {
+    transform: scale(1.125);
+    color: red;
+    border-color: #FFDD8B;
+    margin: 1rem;
+    border-width: 5px;
+    transition: 500ms;
+}

@@ -1,0 +1,20 @@
+:root {
+    --navLinkSize: 1.2rem;
+    --headerLevelOne: 2rem
+}
+
+.navBar {
+    background-color: #FFDD8B;
+    min-height: 3.5em;
+}
+
+.navBar .nav-link {
+    color: #0F0D53;
+    font-size: var(--navLinkSize);
+    transition-duration: 500s;
+}
+
+.nav-link:hover {
+    transform: scale(1.15);
+    transition-duration: 500s;
+}

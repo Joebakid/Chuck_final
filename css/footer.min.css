@@ -1,0 +1,9 @@
+ footer {
+     background-image: url('../src/images/footer.webp');
+     background-size: cover;
+     color: transparent;
+ }
+
+ .email {
+     text-decoration: underline;
+ }
